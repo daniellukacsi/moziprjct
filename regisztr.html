@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="mozics.css">
+    <script src="mozijs.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>  
+    <title>Regisztráció</title>
+</head>
+<body>
+    
+        <h1 class="d-none d-md-block">Mozi</h1>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="moziproject.php">Műsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="regisztr.html">Regisztráció</a>
+          </li>    
+        </ul>
+      </nav>
+      <div class="container border bg-light">
+    <div class="row justify-content-center"><div class="col-8">
+
+    <ul id="hibalista"></ul>
+
+    <form class="p-5">
+        <div class="form-group">
+          <label for="email">Email cím</label>
+          <input type="email" class="form-control" id="email" placeholder="email">
+          
+        </div>
+        <div class="form-group">
+          <label for="fnev">Felhasználónév</label>
+          <input type="fnev" class="form-control" id="fnev" placeholder="felhasznalonev">
+          
+        </div>
+        <div class="form-group">
+          <label for="passw">Jelszó</label>
+          <input type="password" class="form-control" id="passw" placeholder="jelszo">
+        </div>
+        <div class="form-group">
+        <button id="elkuld" type="elkuld" class="btn btn-primary center">Elküld</button>
+      </div>  
+    </div>
+  </div>
+
+  </form>
+    <hr>
+    <ul id="adatok"></ul>
+  </div>
+</div>
+</div>
+</body>
+</html>
